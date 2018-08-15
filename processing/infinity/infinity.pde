@@ -11,13 +11,14 @@ void setup(){
 
 void draw(){
   background(20);
-  stroke(255);
+  
   strokeWeight(3);
   
   translate(width/2, height/2);
 
   for(int i = 0; i < NUM_LINES; i++){
   line(x1(t+i), y1(t+i), x2(t+i), y2(t+i));
+    stroke(i*10*random(1,10)%255, i*10*random(1,10)%255, i*10*random(1,10)%255);
    }
   //point(x1(t), y1(t));
   //point(x2(-t), y2(-t));

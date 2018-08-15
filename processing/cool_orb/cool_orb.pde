@@ -35,7 +35,7 @@ void draw(){
   //  line(-x4(t-i)-500, -y4(t-i), x1(t+i), y1(t+i));
     //line(-x4(t-i)+150, -y4(t-i), x1(t+i)+150, y1(t+i));
    // line(x4(t-i)-150, y4(t-i), x1(t+i)-150, y1(t+i));
-   rotate(player.left.get(i)*3);
+   rotate(player.left.get(i)/2);
     line(x4(t-i), y4(t-i), x1(t+i), y1(t-i));
   }
   //point(x1(t), y1(t));
